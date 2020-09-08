@@ -1,0 +1,35 @@
+<!-- start Simple Custom CSS and JS -->
+<style type="text/css">
+/* Add your CSS code here.
+
+For example:
+.example {
+    color: red;
+}
+
+For brushing up on your CSS knowledge, check out http://www.w3schools.com/css/css_syntax.asp
+
+End of comment */ 
+body{
+	overflow-x: hidden;
+}
+
+.elementor-shape-bottom {
+	bottom: -1px;
+	animation: wave 22s cubic-bezier(0.36, 0.45, 0.63, 0.53) infinite ;
+	width: 210%
+}
+
+@keyframes wave{
+		0%{
+		margin-left: 0;
+	}
+	50%{
+		margin-left: -1600px;
+	}
+	100%{
+		margin-left: 0px;
+	}
+}
+</style>
+<!-- end Simple Custom CSS and JS -->
